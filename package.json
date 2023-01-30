@@ -1,0 +1,16 @@
+{
+  "name": "node-ts-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node dist/index.js",
+    "run": "ts-node index.ts",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "ts-node": "^10.3.0",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.4.4"
+  }
+}
